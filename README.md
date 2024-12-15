@@ -5,13 +5,30 @@
 📋 Objetivo
 O TerrorMobile é um aplicativo mobile desenvolvido em React Native, com o objetivo de gerenciar produtos de um estoque. Ele permite realizar um CRUD (Create, Read, Update e Delete) dos produtos, salvando informações essenciais como:
 
+
+
 Nome
+
+
+
 Descrição
+
+
+
 Quantidade
+
+
+
 Foto
+
+
+
 As informações dos produtos são carregadas a partir de um JSON estático, permitindo a simulação das operações mesmo sem um backend integrado.
 
 ✨ Funcionalidades Principais
+
+
+
 Listar Produtos
 Exibe todos os produtos disponíveis no estoque, com suas informações detalhadas.
 
@@ -19,11 +36,25 @@ Adicionar Produtos
 Permite cadastrar novos produtos preenchendo os campos:
 
 Nome
+
+
+
 Descrição
+
+
+
 Quantidade
+
+
+
 Foto
+
+
+
 Editar Produtos
 Atualiza as informações de um produto existente.
+
+
 
 Deletar Produtos
 Remove um produto do estoque.
@@ -31,19 +62,39 @@ Remove um produto do estoque.
 Persistência Local com JSON
 As informações dos produtos são armazenadas e gerenciadas a partir de um JSON estático, simulando um banco de dados.
 
+
+
+
 🛠️ Tecnologias Utilizadas
 O projeto TerrorMobile foi desenvolvido utilizando as seguintes tecnologias:
 
+
+
 React Native → Framework para desenvolvimento de aplicativos móveis.
+
+
 Node.js → Gerenciador de pacotes (npm) e execução de scripts.
+
+
 JavaScript → Linguagem principal utilizada no desenvolvimento.
+
+
 JSON → Utilizado para armazenar e carregar os dados dos produtos de forma estática
 
 
+
+
+
 🚀 Como Executar o Projeto
+
+
+
 Siga os passos abaixo para rodar o TerrorMobile em sua máquina local:
 
 Clone o Repositório
+
+
+
 Faça o download do projeto usando o comando:
 
 bash
