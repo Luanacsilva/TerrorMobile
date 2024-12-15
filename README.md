@@ -1,50 +1,88 @@
-# Welcome to your Expo app 👋
+🚀 TerrorMobile
+📋 Objetivo
+O TerrorMobile é um aplicativo mobile desenvolvido em React Native, com o objetivo de gerenciar produtos de um estoque. Ele permite realizar um CRUD (Create, Read, Update e Delete) dos produtos, salvando informações essenciais como:
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Nome
+Descrição
+Quantidade
+Foto
+As informações dos produtos são carregadas a partir de um JSON estático, permitindo a simulação das operações mesmo sem um backend integrado.
 
-## Get started
+✨ Funcionalidades Principais
+Listar Produtos
+Exibe todos os produtos disponíveis no estoque, com suas informações detalhadas.
 
-1. Install dependencies
+Adicionar Produtos
+Permite cadastrar novos produtos preenchendo os campos:
 
-   ```bash
-   npm install
-   ```
+Nome
+Descrição
+Quantidade
+Foto
+Editar Produtos
+Atualiza as informações de um produto existente.
 
-2. Start the app
+Deletar Produtos
+Remove um produto do estoque.
 
-   ```bash
-    npx expo start
-   ```
+Persistência Local com JSON
+As informações dos produtos são armazenadas e gerenciadas a partir de um JSON estático, simulando um banco de dados.
 
-In the output, you'll find options to open the app in a
+🛠️ Tecnologias Utilizadas
+O projeto TerrorMobile foi desenvolvido utilizando as seguintes tecnologias:
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+React Native → Framework para desenvolvimento de aplicativos móveis.
+Node.js → Gerenciador de pacotes (npm) e execução de scripts.
+JavaScript → Linguagem principal utilizada no desenvolvimento.
+JSON → Utilizado para armazenar e carregar os dados dos produtos de forma estática
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
 
-## Get a fresh project
+🚀 Como Executar o Projeto
+Siga os passos abaixo para rodar o TerrorMobile em sua máquina local:
 
-When you're ready, run:
+Clone o Repositório
+Faça o download do projeto usando o comando:
 
-```bash
-npm run reset-project
-```
+bash
+Copiar código
+git clone https://github.com/Luanacsilva/TerrorMobile.git
+Instale as Dependências
+Acesse a pasta do projeto e instale as dependências com:
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+bash
+Copiar código
+cd TerrorMobile
+npm install
+Execute o Projeto
+Para rodar o aplicativo no emulador ou dispositivo físico, utilize o comando:
 
-## Learn more
+bash
+Copiar código
+npx react-native run-android
+ou
 
-To learn more about developing your project with Expo, look at the following resources:
+bash
+Copiar código
+npx react-native run-ios
+Visualize o Aplicativo
+O app será executado no emulador ou dispositivo e mostrará a lista de produtos do JSON estático.
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+TerrorMobile/
+│
+├── app/                  # Contém os arquivos principais do app
+│   ├── index.tsx         # Componente principal
+│   ├── _layout.tsx       # Layout padrão do aplicativo
+│   └── app.json          # Dados estáticos (JSON) com os produtos
+│
+├── node_modules/         # Pacotes e dependências instaladas
+│
+├── .gitignore            # Arquivos e pastas ignorados pelo Git
+├── package.json          # Gerenciamento de dependências e scripts
+├── tsconfig.json         # Configurações do TypeScript
+├── README.md             # Documentação do projeto
+└── package-lock.json     # Versões exatas das dependências
 
-## Join the community
+📜 Licença
+Este projeto está sob a Licença MIT.
+Sinta-se à vontade para usar, modificar e compartilhar conforme necessário.
 
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
