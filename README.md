@@ -1,4 +1,7 @@
 🚀 TerrorMobile
+
+
+
 📋 Objetivo
 O TerrorMobile é um aplicativo mobile desenvolvido em React Native, com o objetivo de gerenciar produtos de um estoque. Ele permite realizar um CRUD (Create, Read, Update e Delete) dos produtos, salvando informações essenciais como:
 
