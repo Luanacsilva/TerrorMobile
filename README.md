@@ -83,6 +83,37 @@ JSON → Utilizado para armazenar e carregar os dados dos produtos de forma est�
 
 
 
+🛤️ Rotas do Projeto
+As rotas do TerrorMobile são responsáveis por navegar entre as telas principais do aplicativo:
+
+
+/ - Tela Inicial
+
+
+Exibe a lista de produtos carregados do JSON estático.
+
+
+/add - Adicionar Produto
+
+
+
+Tela para cadastrar um novo produto preenchendo os campos: Nome, Descrição, Quantidade e Foto.
+
+
+/edit/:id - Editar Produto
+
+
+
+Permite editar as informações de um produto existente identificado pelo id.
+
+
+/delete/:id - Deletar Produto
+
+
+
+Remove o produto selecionado, identificado pelo id, da lista.
+
+
 
 
 🚀 Como Executar o Projeto
