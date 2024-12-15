@@ -99,42 +99,99 @@ Faça o download do projeto usando o comando:
 
 bash
 Copiar código
+
+
+
 git clone https://github.com/Luanacsilva/TerrorMobile.git
+
+
+
 Instale as Dependências
+
+
+
 Acesse a pasta do projeto e instale as dependências com:
 
+
+
+
 bash
+
+
+
 Copiar código
+
 cd TerrorMobile
+
+
+
 npm install
+
 Execute o Projeto
+
+
+
 Para rodar o aplicativo no emulador ou dispositivo físico, utilize o comando:
 
 bash
+
 Copiar código
+
 npx react-native run-android
+
 ou
 
+
 bash
+
 Copiar código
+
 npx react-native run-ios
+
 Visualize o Aplicativo
+
 O app será executado no emulador ou dispositivo e mostrará a lista de produtos do JSON estático.
 
+
+
+
 TerrorMobile/
+
 │
-├── app/                  # Contém os arquivos principais do app
+├── app/                    # Contém os arquivos principais do app
+
+
 │   ├── index.tsx         # Componente principal
+
+
 │   ├── _layout.tsx       # Layout padrão do aplicativo
+
+
 │   └── app.json          # Dados estáticos (JSON) com os produtos
+
+
 │
 ├── node_modules/         # Pacotes e dependências instaladas
+
+
 │
 ├── .gitignore            # Arquivos e pastas ignorados pelo Git
+
+
 ├── package.json          # Gerenciamento de dependências e scripts
+
+
 ├── tsconfig.json         # Configurações do TypeScript
+
+
 ├── README.md             # Documentação do projeto
+
+
 └── package-lock.json     # Versões exatas das dependências
+
+
+
+
 
 📜 Licença
 Este projeto está sob a Licença MIT.
