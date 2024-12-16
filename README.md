@@ -76,7 +76,7 @@ React Native → Framework para desenvolvimento de aplicativos móveis.
 Node.js → Gerenciador de pacotes (npm) e execução de scripts.
 
 
-JavaScript → Linguagem principal utilizada no desenvolvimento.
+Typescript → Linguagem principal utilizada no desenvolvimento.
 
 
 JSON → Utilizado para armazenar e carregar os dados dos produtos de forma estática
