@@ -8,7 +8,7 @@
 ![status: em progresso](https://img.shields.io/badge/status-em%20progresso-yellow)
 ![license: MIT](https://img.shields.io/badge/license-MIT-green)
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+
 
 
 Aplicativo mobile de narrativa interativa com tema de terror, desenvolvido em **React Native** utilizando **Expo**.
