@@ -1,230 +1,85 @@
-🚀 TerrorMobile
+# 👻 TerrorMobile
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
 
-📋 Objetivo
-O TerrorMobile é um aplicativo mobile desenvolvido em React Native, com o objetivo de gerenciar produtos de um estoque. Ele permite realizar um CRUD (Create, Read, Update e Delete) dos produtos, salvando informações essenciais como:
+Aplicativo mobile de narrativa interativa com tema de terror, desenvolvido em **React Native** utilizando **Expo**.
 
+O projeto simula um ambiente de “loja assombrada” onde o usuário pode navegar, visualizar produtos (temáticos ou não 👀), e realizar ações simples. É uma mistura entre e-commerce e creepypasta.  
+Feito para explorar **componentes visuais**, **roteamento com Expo Router**, **fontes personalizadas**, e **interações básicas com listas** e estado.
 
+---
 
-Nome
+## 📱 Funcionalidades
 
+- Tela inicial estilizada com fonte temática (`Creepster`)
+- Adição e edição de produtos
+- Controle de carrinho de compras
+- Navegação entre telas com `expo-router`
+- Interface intuitiva e estética de terror leve
 
+---
 
-Descrição
+## 🚀 Tecnologias Utilizadas
 
+- React Native + Expo
+- TypeScript
+- Expo Router
+- Expo Google Fonts
+- StyleSheet (ou Styled Components)
+- Componentização com boas práticas
 
+---
 
-Quantidade
+## ▶️ Como rodar o projeto
 
+1. **Instale o Expo CLI (caso ainda não tenha):**
 
+```bash
+npm install -g expo-cli
+```
 
-Foto
+2. **Clone o repositório:**
 
-
-
-As informações dos produtos são carregadas a partir de um JSON estático, permitindo a simulação das operações mesmo sem um backend integrado.
-
-✨ Funcionalidades Principais
-
-
-
-Listar Produtos
-Exibe todos os produtos disponíveis no estoque, com suas informações detalhadas.
-
-Adicionar Produtos
-Permite cadastrar novos produtos preenchendo os campos:
-
-Nome
-
-
-
-Descrição
-
-
-
-Quantidade
-
-
-
-Foto
-
-
-
-Editar Produtos
-Atualiza as informações de um produto existente.
-
-
-
-Deletar Produtos
-Remove um produto do estoque.
-
-Persistência Local com JSON
-As informações dos produtos são armazenadas e gerenciadas a partir de um JSON estático, simulando um banco de dados.
-
-
-
-
-🛠️ Tecnologias Utilizadas
-O projeto TerrorMobile foi desenvolvido utilizando as seguintes tecnologias:
-
-
-
-React Native → Framework para desenvolvimento de aplicativos móveis.
-
-
-Node.js → Gerenciador de pacotes (npm) e execução de scripts.
-
-
-Typescript → Linguagem principal utilizada no desenvolvimento.
-
-
-JSON → Utilizado para armazenar e carregar os dados dos produtos de forma estática
-
-
-
-🛤️ Rotas do Projeto
-As rotas do TerrorMobile são responsáveis por navegar entre as telas principais do aplicativo:
-
-
-/ - Tela Inicial
-
-
-Exibe a lista de produtos carregados do JSON estático.
-
-
-/add - Adicionar Produto
-
-
-
-Tela para cadastrar um novo produto preenchendo os campos: Nome, Descrição, Quantidade e Foto.
-
-
-/edit/:id - Editar Produto
-
-
-
-Permite editar as informações de um produto existente identificado pelo id.
-
-
-/delete/:id - Deletar Produto
-
-
-
-Remove o produto selecionado, identificado pelo id, da lista.
-
-
-
-
-🚀 Como Executar o Projeto
-
-
-
-Siga os passos abaixo para rodar o TerrorMobile em sua máquina local:
-
-Clone o Repositório
-
-
-
-Faça o download do projeto usando o comando:
-
-bash
-Copiar código
-
-
-
+```bash
 git clone https://github.com/Luanacsilva/TerrorMobile.git
-
-
-
-Instale as Dependências
-
-
-
-Acesse a pasta do projeto e instale as dependências com:
-
-
-
-
-bash
-
-
-
-Copiar código
-
 cd TerrorMobile
+```
 
+3. **Instale as dependências:**
 
-
+```bash
 npm install
+```
 
-Execute o Projeto
+4. **Rode o app com Expo:**
 
+```bash
+npx expo start
+```
+Você pode escanear o QR code com o app do Expo Go no celular.
 
+---
 
-Para rodar o aplicativo no emulador ou dispositivo físico, utilize o comando:
+## 📸 Prints (em breve)
 
-bash
+---
 
-Copiar código
+## 👩‍💻 Autora
 
-npx react-native run-android
+Luana Cristina da Silva
 
-ou
+---
 
+## ⚖️ Licença
 
-bash
-
-Copiar código
-
-npx react-native run-ios
-
-Visualize o Aplicativo
-
-O app será executado no emulador ou dispositivo e mostrará a lista de produtos do JSON estático.
-
-
-
-
-TerrorMobile/
-
-│
-├── app/                    # Contém os arquivos principais do app
-
-
-│   ├── index.tsx         # Componente principal
-
-
-│   ├── _layout.tsx       # Layout padrão do aplicativo
-
-
-│   └── app.json          # Dados estáticos (JSON) com os produtos
-
-
-│
-├── node_modules/         # Pacotes e dependências instaladas
-
-
-│
-├── .gitignore            # Arquivos e pastas ignorados pelo Git
-
-
-├── package.json          # Gerenciamento de dependências e scripts
-
-
-├── tsconfig.json         # Configurações do TypeScript
-
-
-├── README.md             # Documentação do projeto
-
-
-└── package-lock.json     # Versões exatas das dependências
+Este projeto está sob a licença MIT.
 
 
 
 
 
-📜 Licença
-Este projeto está sob a Licença MIT.
-Sinta-se à vontade para usar, modificar e compartilhar conforme necessário.
+   
+
+
 
