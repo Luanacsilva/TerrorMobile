@@ -1,5 +1,13 @@
 # 👻 TerrorMobile
 
+![stack: frontend](https://img.shields.io/badge/stack-frontend-orange)
+![framework: React Native](https://img.shields.io/badge/framework-React%20Native-blueviolet)
+![tool: Expo](https://img.shields.io/badge/tool-Expo-black)
+![language: TypeScript](https://img.shields.io/badge/language-TypeScript-blue)
+![feature: CRUD](https://img.shields.io/badge/feature-CRUD-green)
+![status: em progresso](https://img.shields.io/badge/status-em%20progresso-yellow)
+![license: MIT](https://img.shields.io/badge/license-MIT-green)
+
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
 
